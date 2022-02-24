@@ -15,6 +15,9 @@ strong{
     font-weight: 900;
     font-style:oblique;
     color: yellow;
+    transform: scaleY(-1);
+    display:inline-flex;
+   
 }
 .happyPart{
     margin-left: 50px;
@@ -23,3 +26,11 @@ strong{
 .sadPart{
     margin-left: 100px;
 }
+li > a {
+    color: red;
+    text-decoration: none;
+  }
+ li > a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
