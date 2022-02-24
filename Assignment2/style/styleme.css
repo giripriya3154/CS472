@@ -1,0 +1,25 @@
+.headLine{
+    color: rgb(103, 103, 189);
+}
+h2{
+    color: rgb(103, 103, 189);
+}
+*{
+    background-color: rgb(185, 147, 130);
+}
+strong{
+    color: yellow;
+}
+.higlightPoint{
+    font-family: Courier New, Times New Roman;
+    font-weight: 900;
+    font-style:oblique;
+    color: yellow;
+}
+.happyPart{
+    margin-left: 50px;
+  
+}
+.sadPart{
+    margin-left: 100px;
+}

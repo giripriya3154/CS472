@@ -1,0 +1,51 @@
+body{
+    color: #404040  ;
+    font-size: 11pt;
+    font-family: Georgia, Garamond,serif;
+}
+h1{
+    text-decoration: underline;
+    background-color:#F0F0F0 ;
+    text-align: center;
+    color: #A4A400;
+    font-family: Helvetica, Arial,'Lucida Sans Unicode',sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+}
+h2{
+   font-size: 18pt;
+    text-decoration: underline;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-align: left;
+    font-family: Helvetica, Arial,'Lucida Sans Unicode',sans-serif;
+    font-weight: normal;
+}
+a{
+    color:#A4A400  ;
+}
+#textbreak{
+text-decoration: line-through ;
+}
+section{
+    font-style: italic;
+    background-color: yellow;
+    margin-left: 40px;
+}
+div.rightElements{
+    text-align: right;
+    float: right;
+
+    
+}
+section.link{
+   
+    background-color: white;
+}
+.rightElements article pre{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.rightElements a img {
+    margin-bottom: 10px;
+}
