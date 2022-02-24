@@ -27,7 +27,7 @@ a{
 #textbreak{
 text-decoration: line-through ;
 }
-section{
+.comment{
     font-style: italic;
     background-color: yellow;
     margin-left: 40px;
