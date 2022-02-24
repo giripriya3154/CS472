@@ -11,6 +11,7 @@ h1{
     font-family: Helvetica, Arial,'Lucida Sans Unicode',sans-serif;
     font-size: 22pt;
     font-weight: bold;
+    padding: 1px;
 }
 h2{
    font-size: 18pt;
@@ -29,7 +30,7 @@ text-decoration: line-through ;
 }
 .comment{
     font-style: italic;
-    background-color: yellow;
+    background-color: #FFFFA8;
     margin-left: 40px;
 }
 div.rightElements{
