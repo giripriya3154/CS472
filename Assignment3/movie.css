@@ -1,0 +1,156 @@
+body{
+   background-image: url(./images/background.png);
+   padding: px;
+   margin: 0px;
+   
+}
+
+p{
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.topImage{
+   text-align: center;
+   height: 50px;
+}
+.repeatedBanner{
+    background-image: url(./images/bannerbg.png);
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Tahoma,Verdana,sans-serif;
+    color: #999999;
+
+}
+div.content-area{
+    
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+.rotten-area{
+    width: 555px;
+    background-image: url(./images/rbg.png);
+    color: red;
+    font-size: 48pt;
+    height: 83px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+
+}
+div>span{
+ 
+    margin-top: 10px;
+}
+.general-review{
+    
+    background-color:#A2B964 ;
+    width:245px;
+    font-size: 8pt;
+    font-family: Arial,sans-serif;
+    position: relative;
+    vertical-align:  top;
+    right: 4px;
+    float: right;
+    height: 412px;
+  
+   
+} 
+div.general-review img{
+    border-top-right-radius:15px;
+}
+.first-column{
+    width:47% ;
+    border:2px gray solid;
+    display: inline-block;
+
+}
+.comment-section{
+    display: inline-block;
+    width: 550px;
+    
+   
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(2,lfr);
+    gap:0px;
+    grid-auto-rows: auto;
+    
+   
+}
+.first{
+    grid-column: 1;
+    grid-row: 1;
+}
+.second{
+    grid-column: 2ß;
+    grid-row: 1;
+}
+.outer{
+    width :255px ; 
+    margin-top: 7px;
+    margin-left: 12px;
+   
+    
+}
+.content{
+border: 2px gray solid;
+ border-radius: 10px;
+width :230px ;
+background-color:#E8DC9B ;
+padding:5pt;
+
+}
+div.content >img{
+float: left;
+}
+div.footer{
+    
+    margin-top: 7px;
+}
+div.name{
+    display: inline-block;
+    font-style: italic;
+    position: relative;
+    left: 5px;
+ 
+    
+}
+div.a{
+    display: inline-block;
+    margin-bottom: 20pt;
+}
+.defination-list{
+    margin-top: auto;
+    display: inline-block;
+    background-color:#A2B964 ;
+    width:250px;
+    font-family: Arial,Sans-serif;
+    font:8pt;
+    height:570px;
+    
+}
+.outer-footer{
+    background-color:#A2B964  ;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.validator-section{
+    position:absolute;
+    top:1070px;
+    right: 0px;
+}
+
+
