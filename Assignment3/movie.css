@@ -1,6 +1,6 @@
 body{
    background-image: url(./images/background.png);
-   padding: px;
+  
    margin: 0px;
    
 }
@@ -81,7 +81,7 @@ div.general-review img{
 }
 .grid-layout{
     display: grid;
-    grid-template-columns: repeat(2,lfr);
+    
     gap:0px;
     grid-auto-rows: auto;
     
@@ -92,7 +92,7 @@ div.general-review img{
     grid-row: 1;
 }
 .second{
-    grid-column: 2ß;
+    grid-column: 2;
     grid-row: 1;
 }
 .outer{
