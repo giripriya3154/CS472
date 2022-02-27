@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webform2.css">
+</head>
+
+<body>
+    <div class="top-header">
+        <div class="top-left">
+            <span class="top-text"><a href="">MUM Golden Dome Market </a>  </span>
+            <span class="dash">: : :</span>
+            <span class="srm"><a href="">SRM System</a> </span>
+      
+
+            
+        </div>
+        <div class="top-middle">
+            <span>|</span>
+            <span class="product"><a href="">Products</a> </span>
+            <span>|</span>
+            <span class="supplier"><a href="">Suppliers</a></span>
+        </div>
+        <div class="top-right">
+            <span>Hello!</span>
+
+            <button>Sign out</button>
+
+        </div>
+    </div>
+   
+    <form action="">
+        <h2>New Product Form</h2>
+        <div class="left-form">
+            <div>
+                <label for="product-number">Product Number </label>
+                <input type="text" name="product-number " required>
+
+            </div>
+            <div>
+                <label for="name">Name </label>
+                <input type="text" name="name " required>
+
+            </div>
+            <div>
+                <label for="unit-price">Unit Price </label>
+                <input type="text" name="unit-price " required placeholder="0.0">
+
+            </div>
+        </div>
+        <div class="right-form">
+            <div>
+                <label for="quantity-stock">Quantity In Stock </label>
+                <input type="text" name="quantity-stock " required placeholder="0">
+
+            </div>
+            <div>
+                <label for="supplier-list">Supplier:</label>
+
+                <select name="cars" id="cars">
+                    <option value="" selected disabled hidden>Select a Supplier</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <div>
+                <label for="require-date">Date supplied </label>
+                <input type="text" name="require-date " required placeholder="yyyy-mm-dd">
+                <span class="date-label">Enter a valid Date</span>
+                
+                
+                
+            </div>
+            
+        </div>
+        <div class="button-area">
+            <button type="reset" class="submit-button">Reset</button>
+            <button type="" class="cancel-button">Cancel</button>
+            <button type="submit" class="add-button">Add Product</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
