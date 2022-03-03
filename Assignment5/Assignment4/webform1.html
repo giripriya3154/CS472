@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./javascriptFile/assignment1js.js"></script>
+    <link rel="stylesheet" href="./webform1.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <label class="label" for="emailaddress">Email address </label>
+            <input class="input" type="email" name="emailaddress" id="emailaddress" placeholder="Enter email" required>
+            <span class="message">We'll never share your email with anyone else</span>
+        </div>
+        <div>
+            <label for="text-password">Password </label>
+            <input  type="password" name="text-password" id="text-password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 10  characters" required>
+            
+        </div>
+
+        <div>
+            <label for="site-url">Site URL </label>
+            <input  type="text" name="site-url" id="site-url" placeholder="https://www.google.com  " pattern="[http\https]\:\/\/+" title="Must enter url with requirent" required>
+            
+        </div>
+        <div>
+            <input class="checkout-label"  type="checkbox" name="checkout-status" id="checkout-status" >
+            <label  for="checkout-status">Check me out</label>
+            <button id="addValues">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>

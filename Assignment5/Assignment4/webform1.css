@@ -1,0 +1,48 @@
+label{
+font-size: 20px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: 2px lightgray solid;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.message{
+     margin-top: 8px;
+    color: gray;
+    display: block;
+}
+div{
+margin-top: 20px;
+}
+input.checkout-label{
+ height: auto;
+ width: auto;
+ display: inline;
+ outline: 1px lightgray solid;
+ border:0px;
+ margin:0px;
+
+ 
+}
+button{
+    display: block;
+    margin-top: 6px;
+    background-color: #218bff;
+    height: 30px;
+    border-radius: 5px;
+    border-radius: 1px #218bff solid;
+    border-color: #218bff;
+    font-size: 15px;
+    color: white;
+}
+form{
+    width:80%;
+    margin:auto
+
+}
+::placeholder{
+    font-size: 15px;
+    }
+  
