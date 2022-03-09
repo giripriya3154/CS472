@@ -151,6 +151,9 @@ function sum1(arrayNumber){
 
 //question 12
 function findSecondBiggest(arrayNumber){
+    if(arrayNumber <=1){
+        throw new console.error("must have atleast 2 elements");
+    }
     let secondBiggest=arrayNumber[0];
     let biggest=arrayNumber[1];
     if(secondBiggest>biggest){
