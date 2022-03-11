@@ -61,11 +61,11 @@ const Employee1={
    salary: " ",
     hireDate : todayDate(),
     doJob : function (jobTitle) {
-            console.log(this.name+ " is a "+ jobTitle+ " who earns " +this.salary)
+            console.log(this.getName()+ " is a "+ jobTitle+ " who earns " +this.salary)
         }
 }
 let Anna1=Object.create(Employee1);
-Anna1.name="Anna";
+Anna1.setName="Anna";
 Anna1.salary="$249,995.50 ";
 Anna.doJob("javaScriptProgrammer");
 
